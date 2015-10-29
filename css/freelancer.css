@@ -1,0 +1,406 @@
+/* Inserta tu código aqui */
+* {
+	font-family: 'Montserrat';
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+a {
+	font-family: 800;
+}
+
+hr:after {
+	content: "\f005";
+	display: inline-block;
+	height: 55px;
+	font-size: 2em;
+	position: relative;
+	top: -0.75em;
+	padding: 0 0.25em;
+	font-family: 'FontAwesome';
+}
+
+hr:before {
+	content: "";
+	display: inline-block;
+	position: relative;
+}
+
+/* utilities */
+
+.no-margin {
+	margin: 0% !important;
+}
+
+.pd-0-15 {
+	padding: 0% 15%;
+}
+
+.pd-0-25 {
+	padding: 0% 25%;
+}
+
+.pd-1-0 {
+	padding: 1.5% 0%;
+}
+
+.pd-5-0 {
+	padding: 5% 0%;
+}
+
+.pd-8-3-4 {
+	padding: 8% 3% 4%;
+}
+
+.pd-0-18 {
+	padding: 0% 18%;
+}
+
+.mg-0-2 {
+	margin: 0% 2.5%;
+}
+
+.mg-auto {
+	margin: auto;
+}
+
+.mg-2-0 {
+	margin: 2% 0%;
+}
+
+.mg-10-0 {
+	margin: 10% 0%;
+}
+
+/* header */
+
+header {
+	width: 100%; 
+	z-index: 100;
+}
+
+header a {
+	color: #fff;
+	margin: 0% 3% 0% 0%;
+	font-weight: bold;
+}
+
+.navbar-default {
+	padding: 1.5%;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-header a {
+	font-size: 1.8em;
+	color: #fff;
+}
+
+.navbar-header a:hover, .collapse .nav li a:hover {
+	color: #18bc9c;
+}
+
+.nav > li > .active {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.nav > li:first-child > a {
+	color: #18b9bc;
+}
+
+.nav > li:first-child > a:hover {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* bg-success */
+
+.bg-success {
+	color: #fff;
+	margin: 7% 0% 2%;
+	padding: 10% 0% 7%;
+	font-size: 1.5em;
+}
+
+.bg-success h2 {
+	font-size: 3em;
+}
+
+.white {
+	width: 300px;
+	border: 3px solid #fff;
+	margin: 40px auto;
+}
+
+.white:after {
+	background: #18bc9c;
+}
+
+/* portfolio */
+
+#portfolio h2 {
+	font-size: 3em;
+}
+
+.blue {
+	width: 200px;
+	border: 3px solid #2c3e50;
+	margin: 30px auto;
+}
+
+.blue:after {
+	background: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .portfolio {
+  	width: 100%;
+    height: 218px;
+    font-size: 1em;
+    margin: 10% 0%;
+  }
+
+  .portfolio i {
+  	margin: 80px 0;
+  	color: transparent;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+  .portfolio {
+  	width: 100%;
+    height: 310px;
+    font-size: 1em;
+    margin: 10% 0%;
+  }
+
+  .portfolio i {
+  	margin: 130px 0;
+  	color: transparent;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .portfolio {
+  	width: 100%;
+    height: 430px;
+    font-size: 1.5em;
+    margin: 10% 0%;
+  }
+
+  .portfolio i {
+  	margin: 180px 0;
+  	color: transparent;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio {
+  	width: 100%;
+    height: 160px;
+    font-size: 0.8em;
+    margin: 10% 0%;
+  }
+
+  .portfolio i {
+  	margin: 60px 0;
+  	color: transparent;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+	.portfolio {
+		width: 100%;
+		height: 210px;
+	}
+
+	.portfolio i {
+		color: transparent;
+		margin: 90px auto;
+	}
+}
+
+@media (min-width: 1280px) {
+	.portfolio {
+		width: 100%;
+		height: 260px;
+		margin: 10% 0%;
+	}
+
+	.portfolio i {
+		color: transparent;
+		margin: 100px auto;
+	}
+}
+
+.portfolio:hover, .portfolio:hover i {
+	background: #18bc9c;
+	color: #fff;
+}
+
+.img-cabin {
+	background: url(../img/portfolio/cabin.png) no-repeat;
+	background-size: 100%;
+}
+
+.img-cake {
+	background: url(../img/portfolio/cake.png) no-repeat;
+	background-size: 100%;
+}
+
+.img-circus {
+	background: url(../img/portfolio/circus.png) no-repeat;
+	background-size: 100%;
+}
+
+.img-game {
+	background: url(../img/portfolio/game.png) no-repeat;
+	background-size: 100%;
+}
+
+.img-safe {
+	background: url(../img/portfolio/safe.png) no-repeat;
+	background-size: 100%;
+}
+
+.img-submarine {
+	background: url(../img/portfolio/submarine.png) no-repeat;
+	background-size: 100%;
+}
+
+/* about */
+
+#about h2, .about h2 {
+	font-size: 2em;
+}
+
+#about p {
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+.about p {
+	font-size: 1.3em; 
+}
+
+.btn-success {
+	padding: 1.5% 3%;
+	border: 2px solid #fff;
+	color: #2c3e50;
+	font-size: 0.9em;
+}
+
+#about button:hover {
+	background: #fff;
+	border: 1px solid #fff;
+	color: #2c3e50;
+}
+
+button:focus {
+	border-width: 0px;
+}
+
+#about .btn:hover i {
+	color: #2c3e50;
+}
+
+/* blog */
+
+.blog h2 {
+	font-size: 3em;
+	color: #18bc9c;
+	font-weight: 700;
+	margin: 5% 2% 2%;
+}
+
+.blog .row {
+	margin: 1.5%;
+}
+
+.blog img {
+	width: 100%;
+}
+
+.blog p {
+	font-size: 1.2em;
+}
+
+/* contact */
+
+#contact {
+	padding: 7% 0%;
+}
+
+.form-control {
+	width: 100%;
+	padding: 5% 1.8% 3%;
+	font-size: 1.5em;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-width: 1px;
+	border-radius: 0px;
+}
+
+#contact #message {
+	border-bottom: 1px solid #dce4ec;
+}
+
+.form-control:focus {
+	border-color: #dce4ec;
+}
+
+#contact .btn-success {
+	color: #fff;
+	font-size: 1.3em;
+}
+
+/* bg-primary */
+
+.bg-primary p, .bg-primary i {
+	font-size: 1.3em;
+}
+
+.bg-primary i {
+	margin: 0% 1%;
+	border: 2px solid #fff;
+	padding: 3% 3.5%;
+	border-radius: 100%;
+	color: #fff;
+	transition: 0.5s ease-in-out;
+}
+
+.bg-primary i:hover {
+	color: #18bc9c;
+	-moz-transform: skewX(3deg) skewY(4deg);
+-webkit-transform: skewX(3deg) skewY(4deg);
+-o-transform: skewX(3deg) skewY(4deg);
+-ms-transform: skewX(3deg) skewY(4deg);
+transform: skewX(3deg) skewY(4deg);
+}
+
+/* footer */
+
+footer {
+	background: #1F2A35;
+	color: #fff;
+}
+
+footer p {
+	margin: 0.5% 0%;
+}
